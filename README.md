@@ -5,8 +5,8 @@ Terraform module for setting up AWS backend for (ACloudGuru Alexa Certification 
 Can help you to learn about [Amazon Alexa](https://developer.amazon.com/alexa) using [Amazon Web Services (AWS)](https://aws.amazon.com/).
 
 
-Repo will setup all of the AWS hosted components within your account, including an exmaple Lambda python payload.
-As you go through the course follow the instructions to create the updated Lambda python zip files, and replace the existing lambda/backend/lambda_function.zip file with the new one you create and re-run the terraform.
+Repo will setup all of the AWS hosted components within your account, once you create your first Python lambda_function.zip package.
+As you go through the course follow the instructions to create the Lambda python zip files, and place in the existing lambda/backend folder.  It ust be called lambda_function.zip and re-run the terraform at each stage to update.
 
 skill_id variable needs setting with your Skill ID from within the Alexa Developer Console.
 
@@ -45,3 +45,7 @@ skill_id variable needs setting with your Skill ID from within the Alexa Develop
 | s3\_bucket\_domain\_name | Domain name of the S3 Bucket |
 
 <!--- END_TF_DOCS --->
+
+## License
+
+See  (License)[/LICENSE].
