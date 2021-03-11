@@ -48,4 +48,4 @@ skill_id variable needs setting with your Skill ID from within the Alexa Develop
 
 ## License
 
-See  (License)[/LICENSE].
+See  (License)[./LICENSE].
