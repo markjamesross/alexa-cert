@@ -32,8 +32,7 @@ jobs:
            git config --local user.email "action@github.com"
            git config --local user.name "GitHub Action"
            git diff-index --quiet HEAD || git commit -m "terraform-fmt-via-cicd: automated action" -a
-    - name: Push Changes
-      uses: ad-m/github-push-action@master
+           git push
 
   docs:
     runs-on: ubuntu-latest
