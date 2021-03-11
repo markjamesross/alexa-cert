@@ -1,8 +1,3 @@
-variable "region" {
-  description = "Region to deploy to"
-  type        = string
-}
-
 variable "skill_id" {
   description = "Alexa skill ID (retrieve this from the Alexa Developer Console)"
   type        = string

@@ -1,6 +1,14 @@
 # alexa-cert
 
-Terraform module for setting up AWS backend for ADloudGuru Alexa Certification Course
+Terraform module for setting up AWS backend for ACloudGuru Alexa Certification Course - https://acloudguru.com/course/aws-certified-alexa-skill-builder-specialty
+
+#Usage 
+```hcl
+module "alex-skill-setup" {
+  source   = "https://github.com/markjamesross/alexa-cert"
+
+  skill_id = "example-skill-id"
+```
 
 <!--- BEGIN_TF_DOCS --->
 ## Requirements
