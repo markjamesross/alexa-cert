@@ -1,8 +1,8 @@
 # alexa-cert
 
-Terraform module for setting up AWS backend for (ACloudGuru Alexa Certification Course)[https://acloudguru.com/course/aws-certified-alexa-skill-builder-specialty].
+Terraform module for setting up AWS backend for [ACloudGuru Alexa Certification Course](https://acloudguru.com/course/aws-certified-alexa-skill-builder-specialty)
 
-Can help you to learn about [Amazon Alexa](https://developer.amazon.com/alexa) using [Amazon Web Services (AWS)](https://aws.amazon.com/).
+Can help you to learn about [Amazon Alexa](https://developer.amazon.com/alexa) using [Amazon Web Services (AWS)](https://aws.amazon.com/)
 
 
 Repo will setup all of the AWS hosted components within your account, once you create your first Python lambda_function.zip package.
@@ -48,4 +48,4 @@ skill_id variable needs setting with your Skill ID from within the Alexa Develop
 
 ## License
 
-See  (License)[./LICENSE].
+See  [License](https://github.com/markjamesross/alexa-cert/LICENSE)
