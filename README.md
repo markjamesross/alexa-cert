@@ -13,13 +13,16 @@ module "alex-skill-setup" {
 <!--- BEGIN_TF_DOCS --->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| terraform | >= 0.14.0 |
+| aws | >= 3.20.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | n/a |
+| aws | >= 3.20.0 |
 
 ## Inputs
 
@@ -27,7 +30,6 @@ No requirements.
 |------|-------------|------|---------|:--------:|
 | bucket\_prefix | S3 bucket prefix, with have account number apended to the name | `string` | `"my-alexa-cert-bucket-"` | no |
 | cloudfront\_name | CloudFront distribution name | `string` | `"my-alexa-cert-s3-origin"` | no |
-| region | Region to deploy to | `string` | n/a | yes |
 | skill\_id | Alexa skill ID (retrieve this from the Alexa Developer Console) | `string` | n/a | yes |
 | tags | Tags to apply to resources | `map(any)` | <pre>{<br>  "Environment": "Alexa-Certification"<br>}</pre> | no |
 
