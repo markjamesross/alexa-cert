@@ -10,7 +10,7 @@ resource "aws_lambda_function" "backend" {
 
   environment {
     variables = {
-      LOG_LEVEL              = "10"
+      LOG_LEVEL = "10"
     }
   }
 
