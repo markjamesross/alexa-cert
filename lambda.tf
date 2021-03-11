@@ -10,7 +10,7 @@ resource "aws_lambda_function" "backend" {
 
   environment {
     variables = {
-      LOG_LEVEL = "10"
+      LOG_LEVEL              = "10"
       CLOUDFRONT_DOMAIN_NAME = aws_cloudfront_distribution.s3_distribution.domain_name
     }
   }
