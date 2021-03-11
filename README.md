@@ -1,14 +1,17 @@
 # alexa-cert
 
-Terraform module for setting up AWS backend for ACloudGuru Alexa Certification Course - https://acloudguru.com/course/aws-certified-alexa-skill-builder-specialty
+Terraform module for setting up AWS backend for (ACloudGuru Alexa Certification Course)[https://acloudguru.com/course/aws-certified-alexa-skill-builder-specialty].
+
+Can help you to learn about [Amazon Alexa](https://developer.amazon.com/alexa) using [Amazon Web Services (AWS)](https://aws.amazon.com/).
+
+
+Repo will setup all of the AWS hosted components within your account, including an exmaple Lambda python payload.
+As you go through the course follow the instructions to create the updated Lambda python zip files, and replace the existing lambda/backend/lambda_function.zip file with the new one you create and re-run the terraform.
+
+skill_id variable needs setting with your Skill ID from within the Alexa Developer Console.
 
 #Usage 
-```hcl
-module "alex-skill-setup" {
-  source   = "https://github.com/markjamesross/alexa-cert"
 
-  skill_id = "example-skill-id"
-```
 
 <!--- BEGIN_TF_DOCS --->
 ## Requirements

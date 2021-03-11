@@ -11,7 +11,6 @@ resource "aws_lambda_function" "backend" {
   environment {
     variables = {
       LOG_LEVEL              = "10"
-      CLOUDFRONT_DOMAIN_NAME = aws_cloudfront_distribution.s3_distribution.domain_name
     }
   }
 
@@ -62,5 +61,3 @@ resource "aws_lambda_permission" "allow_alexa" {
   principal          = "alexa-appkit.amazon.com"
   event_source_token = var.skill_id
 }
-
-#Todo - add Cloudwatch alarm
